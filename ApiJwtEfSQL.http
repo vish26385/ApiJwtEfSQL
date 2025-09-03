@@ -1,0 +1,6 @@
+@ApiJwtEfSQL_HostAddress = http://localhost:5110
+
+GET {{ApiJwtEfSQL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
