@@ -28,6 +28,7 @@ namespace ApiJwtEfSQL.Services
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Username),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.Role, user.Role),
                 new Claim("uid", user.Id.ToString())
             };
 
