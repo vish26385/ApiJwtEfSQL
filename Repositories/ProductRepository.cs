@@ -1,6 +1,7 @@
 ﻿using ApiJwtEfSQL.Data;
 using ApiJwtEfSQL.Models;
 using Microsoft.EntityFrameworkCore;
+using Task = System.Threading.Tasks.Task;
 
 namespace ApiJwtEfSQL.Repositories
 {

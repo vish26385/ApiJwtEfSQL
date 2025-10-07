@@ -1,5 +1,6 @@
 ﻿using ApiJwtEfSQL.Models;
 using Microsoft.EntityFrameworkCore;
+using Task = ApiJwtEfSQL.Models.Task;
 
 namespace ApiJwtEfSQL.Data
 {
@@ -9,5 +10,6 @@ namespace ApiJwtEfSQL.Data
 
         public DbSet<Product> Products { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Task> Tasks { get; set; }
     }
 }
